@@ -14,24 +14,26 @@
 </style>
 <body onload="getNames()">
 <div id="mainDiv">
-<h1>Applikasi Generator Nama Random</h1>
+<br>
+    <h1>Applikasi Generator Nama Random</h1>
 <h2>Apri Wardoyo</h2>
-<p>1. Click this button to get a random name:<br/>
-    <button type="button" id="btnRandom"  onclick="getRandomName()">Get Random Name</button>
+<br>
+<p>1. Tekan tombol ini untuk mendapatkan nama random:<br/>
+    <button type="button" id="btnRandom"  onclick="getRandomName()">Dapatkan nama random</button>
     <br/>
 <div id="'randomName">
-    <span>First Name: </span><span id="firstName"></span>
+    <span>Nama Depan: </span><span id="firstName"></span>
     <br/>
-    <span>Last Name: </span><span id="lastName"></span>
+    <span>Nama Belakang: </span><span id="lastName"></span>
 </div>
 </p>
 <hr>
-<p>2. Click this button save the random name to a database:<br/>
-    <button id="btnSave" type="button" onclick="saveName()" disabled>Save Name</button>
+<p>2. Klik tombol ini untuk menyimpan ke database:<br/>
+    <button id="btnSave" type="button" onclick="saveName()" disabled>Simpan Nama</button>
     <div id="saveResponse"></div>
 </p>
 <hr>
-<p>List of Names:<br/>
+<p>Daftar Nama yang tersimpan di database:<br/>
     <!--
     <button type="button" onclick="getNames()">See All Names</button>
     <br/>
@@ -39,8 +41,8 @@
     <div id='namesList'></div>
 </p>
 <hr>
-<p>Optional: Clear the list data from the database:<br/>
-    <button type="button" onclick="clearNames()">Clear Names from DB</button>
+<p>Optional: Hapus daftar nama yang ada di database:<br/>
+    <button type="button" onclick="clearNames()">Hapus nama dari database</button>
 <div id="deleteResponse"></div>
 
 </p>
